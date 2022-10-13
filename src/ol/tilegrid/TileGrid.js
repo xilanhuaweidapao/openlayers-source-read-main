@@ -78,16 +78,16 @@ class TileGrid {
      * @type {!Array<number>}
      */
     this.resolutions_ = options.resolutions;
-    assert(
-      isSorted(
-        this.resolutions_,
-        function (a, b) {
-          return b - a;
-        },
-        true
-      ),
-      17
-    ); // `resolutions` must be sorted in descending order
+    // assert(
+    //   isSorted(
+    //     this.resolutions_,
+    //     function (a, b) {
+    //       return b - a;
+    //     },
+    //     true
+    //   ),
+    //   17
+    // ); // `resolutions` must be sorted in descending order
 
     // check if we've got a consistent zoom factor and origin
     let zoomFactor;
