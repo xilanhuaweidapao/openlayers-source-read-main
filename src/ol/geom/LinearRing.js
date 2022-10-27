@@ -10,6 +10,7 @@ import {inflateCoordinates} from './flat/inflate.js';
 import {linearRing as linearRingArea} from './flat/area.js';
 
 /**
+ * 渲染岛洞 ？
  * @classdesc
  * Linear ring geometry. Only used as part of polygon; cannot be rendered
  * on its own.

@@ -1,6 +1,7 @@
 /**
  * @module ol/Collection
  */
+// 已看
 import AssertionError from './AssertionError.js';
 import BaseObject from './Object.js';
 import CollectionEventType from './CollectionEventType.js';
