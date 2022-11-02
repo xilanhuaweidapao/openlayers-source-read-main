@@ -68,6 +68,7 @@ class BaseLayer extends BaseObject {
     super();
 
     /***
+     * 为啥三层类都要加这几个？
      * @type {BaseLayerOnSignature<import("../events").EventsKey>}
      */
     this.on;

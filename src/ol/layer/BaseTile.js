@@ -85,7 +85,7 @@ class BaseTileLayer extends Layer {
      * @type {BaseTileLayerOnSignature<void>}
      */
     this.un;
-
+    
     this.setPreload(options.preload !== undefined ? options.preload : 0);
     this.setUseInterimTilesOnError(
       options.useInterimTilesOnError !== undefined
