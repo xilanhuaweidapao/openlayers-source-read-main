@@ -112,6 +112,7 @@ export function removeChildren(node) {
  * implementation (it is not guaranteed to minimize DOM operations).
  * @param {Node} node The parent node whose children need reworking.
  * @param {Array<Node>} children The desired children.
+ * 看过
  */
 export function replaceChildren(node, children) {
   const oldChildren = node.childNodes;

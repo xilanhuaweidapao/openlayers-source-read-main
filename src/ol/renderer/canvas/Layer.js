@@ -26,6 +26,7 @@ export const canvasPool = [];
 
 /**
  * @type {CanvasRenderingContext2D}
+ * 干嘛的？
  */
 let pixelContext = null;
 
