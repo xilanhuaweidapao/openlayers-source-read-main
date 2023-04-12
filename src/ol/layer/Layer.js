@@ -104,7 +104,7 @@ class Layer extends BaseLayer {
     delete baseOptions.source;
 
     super(baseOptions);
-
+    // 为什么基类子类都要写？ on once un
     /***
      * @type {LayerOnSignature<import("../events").EventsKey>}
      */

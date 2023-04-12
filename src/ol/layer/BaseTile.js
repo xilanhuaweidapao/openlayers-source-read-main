@@ -152,6 +152,7 @@ class BaseTileLayer extends Layer {
    * @return {Uint8ClampedArray|Uint8Array|Float32Array|DataView|null} Pixel data.
    * @api
    */
+  // WDP 为什么不是默认就继承了父类的实现？ 多此一举？
   getData(pixel) {
     return super.getData(pixel);
   }

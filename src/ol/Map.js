@@ -600,6 +600,7 @@ class Map extends BaseObject {
    * @param {import("./layer/Base.js").default} layer Layer.
    * @api
    */
+  // push 会触发其它操作？
   addLayer(layer) {
     const layers = this.getLayerGroup().getLayers();
     layers.push(layer);

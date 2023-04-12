@@ -48,6 +48,7 @@ class BaseImageLayer extends Layer {
   /**
    * @param {Options<ImageSourceType>} [options] Layer options.
    */
+  // 这个类有什么用 ？
   constructor(options) {
     options = options ? options : {};
     super(options);

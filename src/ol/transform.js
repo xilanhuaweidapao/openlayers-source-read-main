@@ -123,6 +123,7 @@ export function setFromArray(transform1, transform2) {
  * @return {import("./coordinate.js").Coordinate|import("./pixel.js").Pixel} return coordinate so that operations can be
  *     chained together.
  */
+// WDP 含义是什么 ？
 export function apply(transform, coordinate) {
   const x = coordinate[0];
   const y = coordinate[1];
@@ -189,6 +190,7 @@ export function translate(transform, dx, dy) {
  * @param {number} dy2 Final translation y.
  * @return {!Transform} The composite transform.
  */
+// 含义是什么？
 export function compose(transform, dx1, dy1, sx, sy, angle, dx2, dy2) {
   const sin = Math.sin(angle);
   const cos = Math.cos(angle);
@@ -235,6 +237,7 @@ export function invert(source) {
  * @param {!Transform} source The source transform to invert.
  * @return {!Transform} The inverted (target) transform.
  */
+// WDP 含义是什么 ？
 export function makeInverse(target, source) {
   const det = determinant(source);
   assert(det !== 0, 32); // Transformation matrix cannot be inverted
@@ -261,6 +264,7 @@ export function makeInverse(target, source) {
  * @param {!Transform} mat Matrix.
  * @return {number} Determinant.
  */
+// WDP 含义是什么 ？
 export function determinant(mat) {
   return mat[0] * mat[3] - mat[1] * mat[2];
 }

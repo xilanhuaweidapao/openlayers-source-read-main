@@ -26,6 +26,7 @@ import {fromUserExtent} from '../../proj.js';
  * Canvas renderer for image layers.
  * @api
  */
+// CanvasImageLayerRenderer 与 CanvasTileLayerRenderer 有啥区别 ？
 class CanvasImageLayerRenderer extends CanvasLayerRenderer {
   /**
    * @param {import("../../layer/Image.js").default} imageLayer Image layer.
