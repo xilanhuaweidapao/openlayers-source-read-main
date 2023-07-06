@@ -296,6 +296,7 @@ class SimpleGeometry extends Geometry {
  * @param {number} stride Stride.
  * @return {import("./Geometry.js").GeometryLayout} layout Layout.
  */
+// wdp 提供了一种范式
 function getLayoutForStride(stride) {
   let layout;
   if (stride == 2) {

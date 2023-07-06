@@ -95,6 +95,7 @@ export function nullTileUrlFunction(tileCoord, pixelRatio, projection) {
  * @param {string} url URL.
  * @return {Array<string>} Array of urls.
  */
+// wdp 看过
 export function expandUrl(url) {
   const urls = [];
   let match = /\{([a-z])-([a-z])\}/.exec(url);

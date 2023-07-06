@@ -71,6 +71,7 @@ export function fromKey(key) {
  * @param {TileCoord} tileCoord Tile coord.
  * @return {number} Hash.
  */
+// wdp 特别的 hash
 export function hash(tileCoord) {
   return (tileCoord[1] << tileCoord[0]) + tileCoord[2];
 }

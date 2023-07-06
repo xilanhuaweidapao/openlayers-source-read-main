@@ -41,6 +41,7 @@ export function unregister() {
  * @param {import("proj4")} proj4 Proj4.
  * @api
  */
+// wdp 这是在干嘛 ？
 export function register(proj4) {
   registered = proj4;
 

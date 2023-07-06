@@ -133,7 +133,7 @@ export default TileQueue;
  * @param {number} tileResolution Tile resolution.
  * @return {number} Tile priority.
  */
-// 看不懂 ？
+// wdp 看不懂 ？
 export function getTilePriority(
   frameState,
   tile,

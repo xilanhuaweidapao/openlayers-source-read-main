@@ -130,6 +130,7 @@ class Zoom extends Control {
    * @param {number} delta Zoom delta.
    * @private
    */
+  // wdp
   zoomByDelta_(delta) {
     const map = this.getMap();
     const view = map.getView();

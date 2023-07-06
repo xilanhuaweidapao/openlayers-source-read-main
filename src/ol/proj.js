@@ -703,6 +703,7 @@ export function fromUserResolution(resolution, destProjection) {
  * @param {function(import("./coordinate.js").Coordinate): import("./coordinate.js").Coordinate} transform Transform function (source to destiation).
  * @return {function(import("./coordinate.js").Coordinate): import("./coordinate.js").Coordinate} Safe transform function (source to destiation).
  */
+// wdp so safe!
 export function createSafeCoordinateTransform(sourceProj, destProj, transform) {
   return function (coord) {
     let transformed, worldsAway;
@@ -734,6 +735,7 @@ export function createSafeCoordinateTransform(sourceProj, destProj, transform) {
  * by when this module is executed and should only need to be called again after
  * `clearAllProjections()` is called (e.g. in tests).
  */
+// wdp 这是啥？
 export function addCommon() {
   // Add transformations that don't alter coordinates to convert within set of
   // projections with equal meaning.

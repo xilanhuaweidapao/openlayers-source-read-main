@@ -132,6 +132,7 @@ export function loadFeaturesXhr(
  * @return {FeatureLoader} The feature loader.
  * @api
  */
+// wdp 关于什么时候使用闭包 ？
 export function xhr(url, format) {
   /**
    * @param {import("./extent.js").Extent} extent Extent.

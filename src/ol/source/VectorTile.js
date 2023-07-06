@@ -181,6 +181,7 @@ class VectorTile extends UrlTile {
    * @return {Array<import("../Feature.js").FeatureLike>} Features.
    * @api
    */
+  // wdp 矢量瓦片里的要素如何体现 ？ 没看懂
   getFeaturesInExtent(extent) {
     const features = [];
     const tileCache = this.tileCache;
