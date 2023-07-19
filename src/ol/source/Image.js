@@ -13,6 +13,7 @@ import {linearFindNearest} from '../array.js';
 /**
  * @enum {string}
  */
+// 什么时候用枚举？ 枚举的好处？
 export const ImageSourceEventType = {
   /**
    * Triggered when an image starts loading.
@@ -255,6 +256,7 @@ class ImageSource extends Source {
  * @param {string} src Source.
  */
 export function defaultImageLoadFunction(image, src) {
+  // WDP 为啥有 video
   /** @type {HTMLImageElement|HTMLVideoElement} */ (image.getImage()).src = src;
 }
 

@@ -7,7 +7,7 @@ import ImageState from './ImageState.js';
 import {IMAGE_DECODE} from './has.js';
 import {getHeight} from './extent.js';
 import {listenOnce, unlistenByKey} from './events.js';
-// 已看
+// WDP 已看
 /**
  * A function that takes an {@link module:ol/Image~ImageWrapper} for the image and a
  * `{string}` for the src as arguments. It is supposed to make it so the

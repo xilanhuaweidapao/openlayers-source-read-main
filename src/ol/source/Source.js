@@ -224,6 +224,7 @@ class Source extends BaseObject {
  * @param {AttributionLike|undefined} attributionLike The attribution option.
  * @return {Attribution|null} An attribution function (or null).
  */
+// WDP 为什么要返回 function
 function adaptAttributions(attributionLike) {
   if (!attributionLike) {
     return null;
