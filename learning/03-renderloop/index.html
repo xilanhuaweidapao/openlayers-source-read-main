@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 03 - Render Loop</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 03 - Render Loop</h1>
+        <div class="subtitle">Map.render + frameState</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="pan-left">pan left</button>
+            <button id="pan-right">pan right</button>
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="rotate-left">rotate -15deg</button>
+            <button id="rotate-right">rotate +15deg</button>
+          </div>
+          <pre id="frame">Waiting...</pre>
+          <div class="note">
+            Render loop is inspired by src/ol/Map.js renderFrame_.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

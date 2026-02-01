@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 05 - Layers</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 05 - Layer + LayerGroup</h1>
+        <div class="subtitle">state merge, zIndex, opacity</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="toggle-a">toggle layer A</button>
+            <button id="toggle-b">toggle layer B</button>
+            <button id="opacity-up">opacity +</button>
+            <button id="opacity-down">opacity -</button>
+            <button id="swap-z">swap zIndex</button>
+          </div>
+          <pre id="states">Waiting...</pre>
+          <div class="note">
+            Layer state merging mirrors src/ol/layer/Group.js getLayerStatesArray.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

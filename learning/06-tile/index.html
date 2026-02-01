@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 06 - Tiles</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 06 - TileLayer (XYZ)</h1>
+        <div class="subtitle">minimal tile math + image loading</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="go-nyc">go NYC</button>
+            <button id="go-london">go London</button>
+            <button id="go-tokyo">go Tokyo</button>
+          </div>
+          <pre id="info">Waiting...</pre>
+          <div class="note">
+            Tile math and xyz loading mirror src/ol/source/XYZ.js and tilegrid usage.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 02 - View</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 02 - View State</h1>
+        <div class="subtitle">center / resolution / rotation</div>
+      </header>
+      <section class="layout">
+        <div class="map">
+          <pre id="state">Waiting...</pre>
+        </div>
+        <div class="panel">
+          <div class="controls">
+            <button id="pan-left">pan left</button>
+            <button id="pan-right">pan right</button>
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="rotate-left">rotate -15deg</button>
+            <button id="rotate-right">rotate +15deg</button>
+          </div>
+          <div class="note">
+            View is inspired by src/ol/View.js and constraint helpers.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

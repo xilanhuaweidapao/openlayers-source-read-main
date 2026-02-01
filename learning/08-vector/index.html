@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 08 - Vector</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 08 - VectorLayer</h1>
+        <div class="subtitle">feature + geometry + style</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="pan-left">pan left</button>
+            <button id="pan-right">pan right</button>
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="rotate-left">rotate -15deg</button>
+            <button id="rotate-right">rotate +15deg</button>
+          </div>
+          <pre id="info">Waiting...</pre>
+          <div class="note">
+            Vector rendering mirrors src/ol/layer/Vector.js and canvas renderers.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

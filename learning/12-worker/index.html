@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 12 - Worker</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 12 - Worker Offload</h1>
+        <div class="subtitle">generate points in a worker</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="gen-10k">generate 10k</button>
+            <button id="gen-50k">generate 50k</button>
+            <button id="clear">clear</button>
+          </div>
+          <pre id="stats">Waiting...</pre>
+          <div class="note">
+            Worker usage mirrors src/ol/worker/webgl.js concept (off-main-thread work).
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

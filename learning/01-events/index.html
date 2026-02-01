@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 01 - Events</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 01 - Events</h1>
+        <div class="subtitle">Observable object + change notifications</div>
+      </header>
+      <section class="layout">
+        <div class="map">
+          <pre id="log">Waiting...</pre>
+        </div>
+        <div class="panel">
+          <div class="controls">
+            <button id="set-x-1">set x = 1</button>
+            <button id="set-x-2">set x = 2</button>
+            <button id="set-x-2-again">set x = 2 again</button>
+          </div>
+          <div class="note">
+            Events are inspired by src/ol/events/Target.js and src/ol/Object.js.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

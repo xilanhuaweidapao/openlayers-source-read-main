@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 07 - TileQueue</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 07 - TileQueue + Priority</h1>
+        <div class="subtitle">concurrency + reprioritize</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="toggle-interact">toggle interacting</button>
+          </div>
+          <pre id="stats">Waiting...</pre>
+          <div class="note">
+            TileQueue mirrors src/ol/TileQueue.js + getTilePriority in src/ol/TileQueue.js.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

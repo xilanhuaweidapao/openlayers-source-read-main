@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Step 11 - LRU Cache</title>
+    <link rel="stylesheet" href="../shared/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Step 11 - LRU Cache</h1>
+        <div class="subtitle">tile cache eviction</div>
+      </header>
+      <section class="layout">
+        <div class="map" id="map"></div>
+        <div class="panel">
+          <div class="controls">
+            <button id="zoom-in">zoom in</button>
+            <button id="zoom-out">zoom out</button>
+            <button id="go-paris">go Paris</button>
+            <button id="go-sf">go SF</button>
+          </div>
+          <pre id="stats">Waiting...</pre>
+          <div class="note">
+            LRUCache mirrors src/ol/structs/LRUCache.js (count-based eviction).
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
